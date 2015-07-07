@@ -130,7 +130,7 @@ public class CustomCameraActivity extends Activity {
 
     private void createTopLeftBorder() {
         borderTopLeft = new ImageView(this);
-        setBitmap(borderTopLeft, "border_top_leftijij.png");
+        setBitmap(borderTopLeft, "border_top_left.png");
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(dpToPixels(50), dpToPixels(50));
         layoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
         layoutParams.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
